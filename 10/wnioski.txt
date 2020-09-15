@@ -1,0 +1,11 @@
+Na wykresie metody bezposredniej Eulera(stabilna) widac, ze wykres zbiega do pewnej wartosci, natomiast niestabilna jest rozbiezna.
+
+Wplyw bledów maszynowych widoczny jest:
+Metoda bezposrednia Eulera - 10^(-1.60)
+Metoda posrednia Eulera - 10^(-4.26)
+Metoda trapezów - O(h^3) 10^(-2.76)
+
+			   Wyznaczony rzad dokladnosci | Rzad teoretyczny
+Metoda bezposrednia Eulera  		O(1.433)       |	O(h)
+Metoda posrednia Eulera  		O(0.926)       |        O(h)
+Metoda trapezów 		        O(2.191)       |        O(h^2)

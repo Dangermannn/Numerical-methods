@@ -1,0 +1,13 @@
+Malec Artur
+
+------------------------------------------------------
+Metoda  	  | Rzad teoretyczny | Rzad z wykresu|
+------------------------------------------------------
+Prostokatów lewo  |	  1          |	   0.975     |
+Prostokatów prawo |       1          |	   0.975     |
+Prostokatów srodek|       2          |	   2.06      |
+Trapezów	  |       2          |     1.99	     |
+Parabol 	  |  	  4          |     4.09	     |
+------------------------------------------------------
+
+Rzedy dokladnosci wnikajace z wykresu zgadzaja sie z teoretycznymi.

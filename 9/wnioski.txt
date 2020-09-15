@@ -1,0 +1,13 @@
+W celu wyznaczenia rzedu dokladnosci korzysta sie ze wzoru: (f(x1) - f(x0) )/ (h1 - h0). 
+Numerowa: (12.6688 - 5.87275) / (2.70597 - 0.966289) = 6.79605 / 1.739681 = 3.9064 ~ 4
+Konwencjonalna: (8.86899 - 3.20533) / (3.77239 - 0.956209) = 5.66366 / 2.816181 = 2.011 ~ 2
+
+TEORETYCZNY RZAD DOKLADNOSCI:
+	- dla dyskretyzacji numerowa - O(h^4)
+	- dla dyskretyzacji konwencjonalnej - O(h^2)
+
+Rzedy doswiadczalne pokrywaja sie z teoretycznymi.
+
+Bledy maszynowe pojawiaja sie w punktach:
+	- dla dyskretyzacji numerowa:  10^(-3,77)
+	- dla dyskretyzacji konwencjonalnej:  10^(-2.7)
